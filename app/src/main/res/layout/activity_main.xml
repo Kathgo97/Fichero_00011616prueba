@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gomar.katherinegomar.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/kathy"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Katherine Ivania Gomar Aguilar"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingeniero en informátIca"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/git"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/git_user"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/insta"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/katherine_gomar"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1">
+        <ImageView
+            android:id="@+id/email"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pint"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/pint_name"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/tel_logo"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/num"
+            />
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/num_telefono"/>
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="108dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Power By Katherine Gomar" />
+        </LinearLayout>
+
+    </LinearLayout>
